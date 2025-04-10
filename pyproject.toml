@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "poetry-grpc-plugin"
-version = "0.1.9"
+version = "0.2.0"
 description = "gRPC Poetry plugin"
-authors = ["Federico Jaite <fede_654_87@hotmail.com>"]
+authors = ["Federico Jaite <fede_654_87@hotmail.com>", "Lalith B <lalith87@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "poetry_grpc_plugin"}]
@@ -21,7 +21,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.7"
 grpcio-tools = "^1.39.0"
-poetry = ">=1.2.0,<2.0"
+poetry = ">=1.2.0"
 mypy-protobuf = ">=2.9,<4.0"
 
 [tool.poetry.group.dev.dependencies]
